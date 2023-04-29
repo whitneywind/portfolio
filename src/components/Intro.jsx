@@ -7,7 +7,7 @@ import Email from "./mini-components/Email";
 
 const Intro = () => {
   return (
-    <div className="main-content flex justify-center place-items-center h-[93%] w-full">
+    <div className="main-content flex justify-center place-items-center h-[100%] w-full">
       <div className="w-11/12 h-5/6 border-solid border-4 shadow-custom rounded-sm bg-vlGreen">
         <div className="bg-lGreen border-solid border-b-4 h-10 flex justify-end place-items-center px-1 space-x-1">
           <FaRegWindowMinimize className="text-2xl" />
