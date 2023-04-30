@@ -9,14 +9,16 @@ export default {
       fontFamily: {
         main: ["Poppins", "sans-serif"],
       },
-    },
-    colors: {
-      vlGreen: "#e1e8d9",
-      lGreen: "#c8d5b9",
-      pale: "#fefae0",
-      tan: "#faedcd",
-      lBrown: "#d4a373",
+      colors: {
+        vlGreen: "#e1e8d9",
+        lGreen: "#c8d5b9",
+        pale: "#fefae0",
+        tan: "#faedcd",
+        lBrown: "#d4a373",
+      },
     },
   },
   plugins: [],
 };
+
+// why overriding default colorsr? this is a problem

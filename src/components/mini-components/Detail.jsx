@@ -2,8 +2,8 @@ import { RiComputerLine } from "react-icons/ri";
 
 const Detail = () => {
   return (
-    <div className="hidden md:block absolute right-6 top-[23rem] w-1/5 border-solid border-4 shadow-custom rounded-sm bg-vlGreen">
-      <div className="bg-[#d29f91] border-solid border-b-4 h-10 flex place-items-center justify-center">
+    <div className="hidden md:block absolute right-6 top-[23rem] w-1/5 border-solid border-4 border-black shadow-custom rounded-sm bg-vlGreen">
+      <div className="bg-[#d29f91] border-black border-solid border-b-4 h-10 flex place-items-center justify-center">
         <RiComputerLine className="text-2xl" />
       </div>
       <div className="flex flex-col justify-center items-center">
