@@ -43,7 +43,7 @@ function App() {
 
   return (
     <main className="text-center w-screen h-screen flex items-center justify-center">
-      <div className="w-11/12 h-[90%] border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen flex flex-col justify-center">
+      <div className="w-11/12 h-[90%] border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen flex flex-col justify-center max-w-[1300px]">
         <div className="border-black border-solid bg-lGreen border-b-4 h-10 grid grid-cols-8">
           <nav className="col-span-7 flex place-content-around ml-10">
             <button
