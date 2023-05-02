@@ -8,7 +8,7 @@ import { RiComputerLine } from "react-icons/ri";
 
 const Projects = () => {
   return (
-    <div className="main-content flex justify-center place-items-center h-[94%] sm:h-[100%] w-full border-black border-4 sm:border-0 overflow-y-scroll">
+    <div className="main-content flex justify-center place-items-center h-[94%] sm:h-[100%] w-full border-black border-4 sm:border-0 overflow-y-scroll pt-[18rem] sm:pt-[10rem] md:pt-[24rem] lg:pt-0">
       <div className="project-container w-full z-10 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-5 mx-5 xl:mx-20 2xl:gap-12">
         <div className="border-solid border-black border-4 shadow-custom rounded-sm">
           <BrowserTop color="bg-red-400" />
@@ -24,7 +24,7 @@ const Projects = () => {
                 Complete with account creation and user authentication, this web
                 app helps cafe lovers keep track of their cafe-hopping
               </p>
-              <p className="font-semibold pb-2">
+              <p className="font-semibold pb-2 md:px-4">
                 JavaScript, React, Styled Components, MongoDB Atlas, Mongoose,
                 Node, Express
               </p>
@@ -60,12 +60,12 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Coffeeshop Recs</h2>
               <p className="hidden md:block border-dotted border-amber-400 border-b-2 pb-2 px-2 my-2">
-                Complete with account creation and user authentication, this web
-                app helps cafe lovers keep track of their cafe-hopping
+                This aesthetically pleasing website allows users to browse
+                different coffeeshop and save their favorites. They also have
+                the ability to submit new cafes.
               </p>
               <p className="font-semibold pb-2">
-                JavaScript, React, Styled Components, MongoDB Atlas, Mongoose,
-                Node, Express
+                TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
               </p>
               <div className="flex justify-evenly">
                 <a
@@ -97,14 +97,14 @@ const Projects = () => {
               className="w-36 object-cover object-left border-r-4 border-black"
             />
             <div className="mx-3 text-center p-2 2xl:m-12">
-              <h2 className="font-bold text-lg underline">React Teashop</h2>
+              <h2 className="font-bold text-lg underline">Bilingual Teashop</h2>
               <p className="hidden md:block border-dotted border-cyan-400 border-b-2 pb-2 px-2 my-2">
-                Complete with account creation and user authentication, this web
-                app helps cafe lovers keep track of their cafe-hopping
+                Bilingual Teashop is a React-powered homepage and e-commerce
+                site for "Tea Collctive. Users browse the Korean or English site
+                version, learn about the shop, and add teas to their carts.
               </p>
-              <p className="font-semibold pb-2">
-                JavaScript, React, Styled Components, MongoDB Atlas, Mongoose,
-                Node, Express
+              <p className="font-semibold pb-2 px-14 md:px-0">
+                React, JavaScript, HTML5, CSS3, Bootstrap
               </p>
               <div className="flex justify-evenly">
                 <a
@@ -138,12 +138,12 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Medium Reimagined</h2>
               <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
-                Complete with account creation and user authentication, this web
-                app helps cafe lovers keep track of their cafe-hopping
+                All the functionality of Medium with a new look. This Medium
+                clone uses the headless CMS, Sanity.io, to organize and
+                structure a user's blog posts, including photos.
               </p>
               <p className="font-semibold pb-2">
-                JavaScript, React, Styled Components, MongoDB Atlas, Mongoose,
-                Node, Express
+                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity,
               </p>
               <div className="flex justify-evenly">
                 <a

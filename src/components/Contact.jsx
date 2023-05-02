@@ -5,7 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 const Contact = () => {
   return (
     <div className="h-[96%] flex place-content-center">
-      <div className="border-solid w-3/4 md:w-1/2 h-1/2 mt-24 border-black border-4 shadow-custom rounded-sm bg-vlGreen">
+      <div className="border-solid w-3/4 md:w-1/2 h-3/4 mt-20 border-black border-4 shadow-custom rounded-sm bg-vlGreen">
         <div className="bg-sky-300 border-black border-solid border-b-4 h-10 flex place-items-center justify-center">
           <h1 className="text-xl font-semibold px-6">Where You Can Find Me:</h1>
         </div>

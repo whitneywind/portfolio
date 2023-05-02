@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { useState, useEffect } from "react";
 import BrowserTop from "./components/BrowserTop";
+import { BsArrowRightCircle } from "react-icons/bs";
 
 function App() {
   const [displayed, setDisplayed] = useState("home");
@@ -43,7 +44,7 @@ function App() {
 
   return (
     <main className="text-center w-screen h-screen flex items-center justify-center">
-      <div className="w-11/12 h-[90%] border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen flex flex-col justify-center max-w-[1300px]">
+      <div className="w-11/12 h-[90%] border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen flex flex-col justify-center max-w-[1300px] max-h-[800px]">
         <div className="border-black border-solid bg-lGreen border-b-4 h-10 grid grid-cols-8">
           <nav className="col-span-7 flex place-content-around ml-10">
             <button
@@ -83,6 +84,10 @@ function App() {
         {displayed === "projects" && <Projects />}
         {displayed === "contact" && <Contact />}
       </div>
+      <BsArrowRightCircle
+        className={`absolute top-[0px] sm:top-[0px] md:top-[0px] lg:top-[0px] right-[0px] left-[0px] text-6xl bg-yellow-200 rounded-full cursor-pointer z-100`}
+        onClick={() => setDisplayed("about")}
+      />
     </main>
   );
 }
