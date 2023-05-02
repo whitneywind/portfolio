@@ -1,6 +1,5 @@
 import BrowserTop from "./BrowserTop";
 import img from "../assets/profile.jpg";
-import Arrow from "./mini-components/Arrow";
 
 const About = () => {
   return (
