@@ -83,11 +83,11 @@ function App() {
         {displayed === "about" && <About />}
         {displayed === "projects" && <Projects />}
         {displayed === "contact" && <Contact />}
+        {/* <BsArrowRightCircle
+          className={`absolute top-[40%] right-[30%] text-6xl bg-yellow-200 rounded-full cursor-pointer z-100`}
+          onClick={() => setDisplayed("about")}
+        /> */}
       </div>
-      <BsArrowRightCircle
-        className={`absolute top-[0px] sm:top-[0px] md:top-[0px] lg:top-[0px] right-[0px] left-[0px] text-6xl bg-yellow-200 rounded-full cursor-pointer z-100`}
-        onClick={() => setDisplayed("about")}
-      />
     </main>
   );
 }
