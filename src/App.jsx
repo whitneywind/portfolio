@@ -72,11 +72,6 @@ function App() {
               Contact
             </button>
           </nav>
-          {/* <div className="col-span-1 flex justify-end place-items-center px-1 space-x-1">
-            <FaRegWindowMinimize className="text-2xl" />
-            <BiSquare className="text-3xl" />
-            <GrClose className="text-2xl" />
-          </div> */}
           <BrowserTop />
         </div>
         {displayed === "home" && <Intro />}

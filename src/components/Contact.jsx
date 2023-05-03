@@ -17,7 +17,10 @@ const Contact = () => {
             <HiOutlineMail className="inline" />
             <p className="inline underline underline-offset-4 pl-2">Email</p>
           </a>
-          <a href="" className="text-4xl leading-12 tracking-wide">
+          <a
+            href="https://github.com/whitneywind"
+            className="text-4xl leading-12 tracking-wide"
+          >
             <BsGithub className="inline" />
             <p className="inline underline underline-offset-4 pl-2">GitHub</p>
           </a>

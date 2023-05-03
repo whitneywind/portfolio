@@ -19,11 +19,6 @@ const Intro = () => {
           <p className="text-2xl font-semibold px-8 py-1 border-black border-double border-4 w-2/3 md:w-1/2">
             Crafting innovative and engaging web experiences
           </p>
-          {/* <BsArrowRightCircle
-            className="absolute top-[292px] sm:top-[310px] md:top-[350px] lg:top-[366px] text-6xl bg-red-300 rounded-full cursor-pointer"
-            onClick={() => updateDisplay("about")}
-          /> */}
-
           <Detail />
           <Github />
           <Email />

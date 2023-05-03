@@ -30,7 +30,7 @@ const Projects = () => {
               </p>
               <div className="flex justify-evenly">
                 <a
-                  href="#"
+                  href="https://cafe-rating.onrender.com/"
                   target="_blank"
                   className="underline flex place-items-center"
                 >
@@ -68,14 +68,14 @@ const Projects = () => {
                 TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
               </p>
               <div className="flex justify-evenly">
-                <a
+                {/* <a
                   href="https://cafe-recs-next-42mjhimva-whitneywind.vercel.app/"
                   target="_blank"
                   className="underline flex place-items-center"
                 >
                   Live Site
                   <RiComputerLine className="text-lg ml-[2px]" />
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/whitneywind/cafe-recs-next.js"
                   target="_blank"
@@ -146,14 +146,14 @@ const Projects = () => {
                 TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity,
               </p>
               <div className="flex justify-evenly">
-                <a
+                {/* <a
                   href="#"
                   target="_blank"
-                  className="underline flex place-items-center"
+                  className="flex place-items-center cursor-default line-through"
                 >
                   Live Site
                   <RiComputerLine className="text-lg ml-[2px]" />
-                </a>
+                </a> */}
                 <a
                   href="#"
                   target="_blank"
