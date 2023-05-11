@@ -68,14 +68,14 @@ const Projects = () => {
                 TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
               </p>
               <div className="flex justify-evenly">
-                {/* <a
+                <a
                   href="https://cafe-recs-next-42mjhimva-whitneywind.vercel.app/"
                   target="_blank"
                   className="underline flex place-items-center"
                 >
                   Live Site
                   <RiComputerLine className="text-lg ml-[2px]" />
-                </a> */}
+                </a>
                 <a
                   href="https://github.com/whitneywind/cafe-recs-next.js"
                   target="_blank"
