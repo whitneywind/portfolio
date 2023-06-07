@@ -136,7 +136,7 @@ const Projects = () => {
               className="w-36 object-cover object-left border-black border-r-4"
             />
             <div className="mx-3 text-center p-2 2xl:m-12">
-              <h2 className="font-bold text-lg underline">Medium Reimagined</h2>
+              <h2 className="font-bold text-lg underline">Medium Redesigned</h2>
               <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
                 All the functionality of Medium with a new look. This Medium
                 clone uses the headless CMS, Sanity.io, to organize and
@@ -155,7 +155,7 @@ const Projects = () => {
                   <RiComputerLine className="text-lg ml-[2px]" />
                 </a> */}
                 <a
-                  href="#"
+                  href="https://github.com/whitneywind/medium-redesign"
                   target="_blank"
                   className="flex place-items-center underline"
                 >
