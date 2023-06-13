@@ -2,7 +2,7 @@ import BrowserTop from "./BrowserTop";
 import trackerImg from "../assets/tracker.jpg";
 import recsImg from "../assets/recs.jpg";
 import teashopImg from "../assets/react-teashop.jpg";
-import mediumImg from "../assets/medium-clone.jpg";
+import mediumImg from "../assets/medium-redesign.jpg";
 import { BsGithub } from "react-icons/bs";
 import { RiComputerLine } from "react-icons/ri";
 
@@ -49,35 +49,35 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="border-solid border-black border-4 shadow-custom rounded-sm">
-          <BrowserTop color="bg-amber-600" />
-          <div className="flex bg-amber-100">
+        <div className="border-solid border-black border-4 shadow-custom rounded-sm bg-vlGreen">
+          <BrowserTop color="bg-green-500" />
+          <div className="flex bg-green-100">
             <img
-              src={recsImg}
-              alt=""
-              className="w-36 object-cover border-r-4 border-black"
+              src={mediumImg}
+              alt="medium clone screenshot"
+              className="w-36 object-cover border-black border-r-4"
             />
             <div className="mx-3 text-center p-2 2xl:m-12">
-              <h2 className="font-bold text-lg underline">Coffeeshop Recs</h2>
-              <p className="hidden md:block border-dotted border-amber-400 border-b-2 pb-2 px-2 my-2">
-                This aesthetically pleasing website allows users to browse
-                different coffeeshop and save their favorites. They also have
-                the ability to submit new cafes.
+              <h2 className="font-bold text-lg underline">Medium Reimagined</h2>
+              <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
+                All the functionality of Medium with a new look. This Medium
+                clone uses the headless CMS, Sanity.io, to organize and
+                structure a user's blog posts, including photos.
               </p>
               <p className="font-semibold pb-2">
-                TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
+                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity
               </p>
               <div className="flex justify-evenly">
                 <a
-                  href="https://cafe-recs-next-42mjhimva-whitneywind.vercel.app/"
+                  href="https://medium-redesign.vercel.app/"
                   target="_blank"
-                  className="underline flex place-items-center"
+                  className="flex place-items-center underline"
                 >
                   Live Site
                   <RiComputerLine className="text-lg ml-[2px]" />
                 </a>
                 <a
-                  href="https://github.com/whitneywind/cafe-recs-next.js"
+                  href="https://github.com/whitneywind/medium-redesign"
                   target="_blank"
                   className="flex place-items-center underline"
                 >
@@ -127,35 +127,35 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="border-solid border-black border-4 shadow-custom rounded-sm bg-vlGreen">
-          <BrowserTop color="bg-green-500" />
-          <div className="flex bg-green-100">
+        <div className="border-solid border-black border-4 shadow-custom rounded-sm">
+          <BrowserTop color="bg-amber-600" />
+          <div className="flex bg-amber-100">
             <img
-              src={mediumImg}
-              alt="medium clone screenshot"
-              className="w-36 object-cover object-left border-black border-r-4"
+              src={recsImg}
+              alt=""
+              className="w-36 object-cover border-r-4 border-black"
             />
             <div className="mx-3 text-center p-2 2xl:m-12">
-              <h2 className="font-bold text-lg underline">Medium Redesigned</h2>
-              <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
-                All the functionality of Medium with a new look. This Medium
-                clone uses the headless CMS, Sanity.io, to organize and
-                structure a user's blog posts, including photos.
+              <h2 className="font-bold text-lg underline">Coffeeshop Recs</h2>
+              <p className="hidden md:block border-dotted border-amber-400 border-b-2 pb-2 px-2 my-2">
+                This aesthetically pleasing website allows users to browse
+                different coffeeshop and save their favorites. They also have
+                the ability to submit new cafes.
               </p>
               <p className="font-semibold pb-2">
-                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity,
+                TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
               </p>
               <div className="flex justify-evenly">
-                {/* <a
-                  href="#"
+                <a
+                  href="https://cafe-recs-next-42mjhimva-whitneywind.vercel.app/"
                   target="_blank"
-                  className="flex place-items-center cursor-default line-through"
+                  className="underline flex place-items-center"
                 >
                   Live Site
                   <RiComputerLine className="text-lg ml-[2px]" />
-                </a> */}
+                </a>
                 <a
-                  href="https://github.com/whitneywind/medium-redesign"
+                  href="https://github.com/whitneywind/cafe-recs-next.js"
                   target="_blank"
                   className="flex place-items-center underline"
                 >
