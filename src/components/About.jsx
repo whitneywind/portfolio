@@ -13,7 +13,7 @@ const About = () => {
               <h1 className="font-bold text-lg mb-2">About Me</h1>
               <p className="text-lg">
                 Hi! I'm Whitney, a developer on the west coast with a background
-                in linguists. A true linguist at heart, I'm obsessed with all
+                in linguistics. A true linguist at heart, I'm obsessed with all
                 things language, both natural and programming.
               </p>
             </div>
