@@ -60,12 +60,12 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Medium Reimagined</h2>
               <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
-                All the functionality of Medium with a new look. This Medium
-                clone uses the headless CMS, Sanity.io, to organize and
-                structure a user's blog posts, including photos.
+                A Next.js project with a Sanity CMS-powered backend. Users can
+                structure and store rich text blog posts with interactive
+                comment functionality.
               </p>
               <p className="font-semibold pb-2">
-                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity
+                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity CMS
               </p>
               <div className="flex justify-evenly">
                 <a
@@ -138,9 +138,9 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Coffeeshop Recs</h2>
               <p className="hidden md:block border-dotted border-amber-400 border-b-2 pb-2 px-2 my-2">
-                This aesthetically pleasing website allows users to browse
-                different coffeeshop and save their favorites. They also have
-                the ability to submit new cafes.
+                This eye-catching site allows users to browse coffeeshops by
+                area, give them ratings, save their favorites, and submit their
+                own.
               </p>
               <p className="font-semibold pb-2">
                 TypeScript, Next.js, Tailwind CSS, MongoDB, Mongoose, NextAuth
