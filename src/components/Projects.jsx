@@ -60,12 +60,13 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Medium Reimagined</h2>
               <p className="hidden md:block border-dotted border-green-400 border-b-2 pb-2 px-2 my-2">
-                A Next.js project with a Sanity CMS-powered backend. Users can
-                structure and store rich text blog posts with interactive
-                comment functionality.
+                A Next.js project with a Sanity CMS-powered backend and a sleek
+                UI. Users can structure and store rich text blog posts with
+                interactive comment functionality.
               </p>
               <p className="font-semibold pb-2">
-                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity CMS
+                TypeScript, JavaScript, Next.js, Tailwind CSS, Sanity CMS,
+                Vercel
               </p>
               <div className="flex justify-evenly">
                 <a
@@ -99,16 +100,16 @@ const Projects = () => {
             <div className="mx-3 text-center p-2 2xl:m-12">
               <h2 className="font-bold text-lg underline">Bilingual Teashop</h2>
               <p className="hidden md:block border-dotted border-cyan-400 border-b-2 pb-2 px-2 my-2">
-                Bilingual Teashop is a React-powered homepage and e-commerce
-                site for "Tea Collctive. Users browse the Korean or English site
-                version, learn about the shop, and add teas to their carts.
+                Users can browse the Korean or English versions of this
+                React-powered site, get details about the shop, and add teas to
+                their fully functional shopping carts.
               </p>
               <p className="font-semibold pb-2 px-14 md:px-0">
-                React, JavaScript, HTML5, CSS3, Bootstrap
+                TypeScript, React, Vite, React Router v6, HTML5, CSS3, Bootstrap
               </p>
               <div className="flex justify-evenly">
                 <a
-                  href="https://whitneywind.github.io/react-teashop/"
+                  href="https://whitneywind.github.io/tea-collective/#/"
                   target="_blank"
                   className="underline flex place-items-center"
                 >
