@@ -8,7 +8,7 @@ const Detail = () => {
       </div>
       <div className="flex flex-col justify-center items-center py-6">
         <p className="py-4 text-center mx-2 text-xl px-1 lg:text-2xl">
-          Full-stack developer with an emphasis on front-end development
+          Full-stack developer with a specialty in front-end development
         </p>
       </div>
     </div>

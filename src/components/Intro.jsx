@@ -8,8 +8,8 @@ const Intro = () => {
     <div className="main-content flex justify-center place-items-center h-[100%] w-full">
       <div className="w-11/12 h-5/6 border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen">
         <BrowserTop />
-        <div className="flex h-[93%] flex-col justify-center items-center space-y-28 md:space-y-24">
-          <div className="flex flex-col justify-center items-center">
+        <div className="flex h-[93%] flex-col justify-center items-center space-y-28 md:space-y-16">
+          <div className="flex flex-col justify-center items-center mt-8">
             <h1 className="text-5xl md:text-7xl font-bold w-2/3">
               Whitney Gould
             </h1>
