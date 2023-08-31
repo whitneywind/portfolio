@@ -48,25 +48,25 @@ function App() {
         <div className="border-black border-solid bg-lGreen border-b-4 h-10 grid grid-cols-8">
           <nav className="col-span-7 flex place-content-around ml-10">
             <button
-              className="text-3xl font-bold hover:underline"
+              className="text-lg md:text-3xl font-bold hover:underline"
               onClick={() => setDisplayed("home")}
             >
               Home
             </button>
             <button
-              className="text-3xl font-bold hover:underline"
+              className="text-lg md:text-3xl font-bold hover:underline"
               onClick={() => setDisplayed("about")}
             >
               About
             </button>
             <button
-              className="text-3xl font-bold hover:underline"
+              className="text-lg md:text-3xl font-bold hover:underline"
               onClick={() => setDisplayed("projects")}
             >
               Projects
             </button>
             <button
-              className="text-3xl font-bold hover:underline"
+              className="text-lg md:text-3xl font-bold hover:underline"
               onClick={() => setDisplayed("contact")}
             >
               Contact
