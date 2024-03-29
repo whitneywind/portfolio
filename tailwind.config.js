@@ -15,7 +15,7 @@ export default {
         // pale: "#fefae0",
         // tan: "#faedcd",
         // lBrown: "#d4a373",
-        vlGreen: "#e1e8d9",
+        vlGreen: "rgb(236 253 245)",
         lGreen: "rgb(16 185 129)",
         pale: "#f28482",
         tan: "#f28482",
