@@ -22,24 +22,22 @@ const About = () => {
       </div>
       <div className="mt-6 w-5/6 max-w-[1000px] self-center border-black border-solid border-4 shadow-custom rounded-sm bg-vlGreen">
         <div className="bg-lGreen border-solid border-black border-b-4 h-10 flex text-lg place-items-center px-1 justify-center">
-          <p className="hidden sm:block">
-            Some of the technologies I work with:
-          </p>
+          <p className="hidden sm:block">Some technologies I work with:</p>
           <p className="sm:hidden">Technologies:</p>
         </div>
-        <div className="grid md:grid-cols-3 md:space-y-6 md:h-3/5 sm:content-center font-bold md:text-lg lg:text-2xl">
-          <span className="md:mt-12 md:py-6 md:pb-0">JavaScript</span>
-          <span className="md:pt-12">TypeScript</span>
-          <span className="md:pt-12">Next.js</span>
-          <span>HTML5</span>
-          <span>Node</span>
-          <span>Express</span>
-          <span>React</span>
-          <span>CSS3</span>
-          <span>TailwindCSS</span>
-          <span>MongoDB</span>
+        <div className="grid md:grid-cols-3 md:space-y-6 md:mt-2 md:mb-12 md:h-3/5 sm:content-center font-bold md:text-lg lg:text-2xl">
+          <span className="md:py-6 md:pb-0">React</span>
+          <span className="">JavaScript/TypeScript</span>
+          <span className="">SwiftUI</span>
           <span>React Native</span>
-          <span>Git & GitHub</span>
+          {/* <span>HTML/CSS</span> */}
+          {/* <span>SwiftUI</span> */}
+          <span>MongoDB</span>
+          <span>Firebase</span>
+          {/* <span>Node</span> */}
+          {/* <span>MongoDB</span>
+          <span>React Native</span>
+          <span>Git & GitHub</span> */}
         </div>
       </div>
     </div>

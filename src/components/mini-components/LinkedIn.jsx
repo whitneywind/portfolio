@@ -9,7 +9,7 @@ const LinkedIn = () => {
       <div className="flex flex-col py-2 justify-center items-center">
         <a
           className="my-4 text-center mx-2 underline cursor-pointer"
-          href="https://www.linkedin.com/in/whitney-gould-06062690/"
+          href="https://www.linkedin.com/in/whitney-g-06062690/"
           target="_blank"
         >
           View on LinkedIn
