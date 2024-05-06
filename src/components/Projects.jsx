@@ -55,7 +55,7 @@ const Projects = () => {
           bgColor={"amber-100"}
           img={petsImg}
           title="Pet Place"
-          github="https://github.com/whitneywind/react-native-pet-care"
+          github="https://github.com/whitneywind/ts-pets-mobile"
         />
 
         <ProjectLink
