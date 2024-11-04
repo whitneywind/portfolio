@@ -13,17 +13,17 @@ const ProjectLink = ({
     <div>
       <div className="border-solid border-black border-4 shadow-custom rounded-sm">
         <BrowserTop color={`${topColor}`} />
-        <div className={`flex flex-col ${bgColor}`}>
+        <div className={`flex flex-col max-w-[250px] ${bgColor}`}>
           <a href={livesite ? livesite : github} target="_blank">
             <img
               src={img}
               alt="medium clone screenshot"
-              className="w-fill object-cover"
+              className="object-contain"
             />
           </a>
         </div>
       </div>
-      <h2 className="hidden sm:block font-bold text-lg mb-2 mt-4 ">{title}</h2>
+      <h2 className="hidden sm:block font-bold text-md pt-3 pb-1 ">{title}</h2>
       <div className={"hidden md:flex w-[100%] justify-around"}>
         {/* <a
           href={details}
