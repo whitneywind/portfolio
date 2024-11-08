@@ -29,9 +29,7 @@ const Dropdown = () => {
           <span>ArcGIS Suite</span>
           <span>SQL</span>
           <span>HTML CSS</span>
-          <span>Leaflet</span>
-          <span>MongoDB Firebase</span>
-          <span>Mapbpox</span>
+          <span>Mapbox Leaflet</span>
         </div>
       )}
     </div>
