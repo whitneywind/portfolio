@@ -1,6 +1,3 @@
-import Github from "./mini-components/Github";
-import Detail from "./mini-components/Detail";
-import Email from "./mini-components/Email";
 import BrowserTop from "./BrowserTop";
 import img from "../assets/profile.jpg";
 import Dropdown from "./Dropdown";
@@ -19,9 +16,6 @@ const Intro = () => {
                 maps and a love of languages - both natural and programming.
               </p>
             </div>
-            {/* <Detail />
-            <Github />
-            <Email /> */}
           </div>
         </div>
       </div>

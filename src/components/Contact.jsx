@@ -18,6 +18,7 @@ const Contact = () => {
           </a>
           <a
             href="https://github.com/whitneywind"
+            target="_blank"
             className="text-6xl leading-12 tracking-wide transition-all hover:scale-110 hover:-translate-x-1 group"
           >
             <BsGithub className="inline group-hover:text-gray-800" />

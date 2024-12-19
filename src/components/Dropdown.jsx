@@ -26,8 +26,10 @@ const Dropdown = () => {
           <span>React</span>
           <span>Python</span>
           <span>React Native</span>
-          <span>ArcGIS Suite</span>
           <span>SQL</span>
+          <span>ArcGIS & ESRI Software</span>
+          <span>Node</span>
+          <span>QGIS</span>
           <span>HTML CSS</span>
           <span>Mapbox Leaflet</span>
         </div>

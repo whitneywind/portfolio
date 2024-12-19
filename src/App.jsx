@@ -1,11 +1,11 @@
 import "./App.css";
-import Intro from "./components/Intro";
-import About from "./components/About";
+import Maps from "./components/Maps";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { useState } from "react";
 import BrowserTop from "./components/BrowserTop";
 import MapBackground from "./components/MapBackground";
+import Intro from "./components/Intro";
 
 function App() {
   const [displayed, setDisplayed] = useState("home");
@@ -29,12 +29,12 @@ function App() {
               >
                 Projects
               </button>
-              {/* <button
+              <button
                 className="text-lg md:text-3xl font-semibold hover:underline"
-                onClick={() => setDisplayed("about")}
+                onClick={() => setDisplayed("maps")}
               >
                 Maps
-              </button> */}
+              </button>
               <button
                 className="text-lg md:text-3xl font-semibold hover:underline"
                 onClick={() => setDisplayed("contact")}
@@ -46,6 +46,7 @@ function App() {
           </div>
           {displayed === "home" && <Intro />}
           {displayed === "projects" && <Projects />}
+          {displayed === "maps" && <Maps />}
           {displayed === "contact" && <Contact />}
         </div>
       </main>
