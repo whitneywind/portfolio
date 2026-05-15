@@ -25,13 +25,13 @@ const Projects = () => {
           title="Pet Place"
           github="https://github.com/whitneywind/ts-pets-mobile"
         />
-
         <ProjectLink
-          topColor={"bg-indigo-400"}
-          bgColor={"cyan-100"}
-          img={halfgramImg}
-          title="Halfgram"
-          livesite="https://apps.apple.com/us/app/halfgram/id6476069958"
+          topColor={"bg-red-400"}
+          bgColor={"red-100"}
+          img={trackerImg}
+          title="Coffeeshop Map"
+          github="https://github.com/whitneywind/cafe-maplibre"
+          livesite="https://maplibre-coffeeshops.onrender.com/"
         />
         <ProjectLink
           topColor={"bg-purple-500"}
@@ -41,20 +41,19 @@ const Projects = () => {
           livesite="https://expungeassist.org/"
         />
         <ProjectLink
+          topColor={"bg-indigo-400"}
+          bgColor={"cyan-100"}
+          img={halfgramImg}
+          title="Ghoo"
+          livesite="https://apps.apple.com/us/app/halfgram/id6476069958"
+        />
+        <ProjectLink
           topColor={"bg-emerald-500"}
           bgColor={"green-100"}
           img={mediumImg}
           title="Medium Restyle"
           github="https://github.com/whitneywind/medium-redesign"
           livesite="https://medium-redesign.vercel.app/"
-        />
-        <ProjectLink
-          topColor={"bg-red-400"}
-          bgColor={"red-100"}
-          img={trackerImg}
-          title="Cafe Tracking"
-          github="https://github.com/whitneywind/cafe-tracking"
-          livesite="https://cafe-rating.onrender.com/"
         />
       </div>
     </div>

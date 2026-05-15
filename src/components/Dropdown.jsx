@@ -22,16 +22,16 @@ const Dropdown = () => {
 
       {isOpen && (
         <div className="grid md:grid-cols-2 sm:content-center">
-          <span>JavaScript TypeScript</span>
+          <span>JavaScript, TypeScript</span>
           <span>React</span>
           <span>Python</span>
           <span>React Native</span>
-          <span>SQL</span>
-          <span>ArcGIS & ESRI Software</span>
-          <span>Node</span>
-          <span>QGIS</span>
-          <span>HTML CSS</span>
-          <span>Mapbox Leaflet</span>
+          <span>SQL, PostgreSQL</span>
+          <span>ArcGIS Software</span>
+          <span>Node, Express</span>
+          <span>QGIS, MapLibre</span>
+          <span>HTML, CSS</span>
+          <span>Mapbox, MapLibre</span>
         </div>
       )}
     </div>

@@ -12,8 +12,7 @@ const Intro = () => {
             <img src={img} className="w-1/2 mt-3 border-4 lg:border-black" />
             <div className="text-left my-4 pr-6 sm:pl-12 lg:pl-2">
               <p className="text-lg md:text-xl text-center md:px-5">
-                Hi! I'm Whitney, a software and GIS developer with a passion for
-                maps and a love of languages - both natural and programming.
+                Hi, I'm Whitney! I'm a a software developer with a love of languages - both natural and programming.
               </p>
             </div>
           </div>
